@@ -11,7 +11,8 @@ const MobileNav = () => {
 
   return (
    <>
-        {toggleNav && (<div className='sm:hidden absolute w-[50%] top-0 right-0 min-h-screen bg-white flex flex-col list-none py-[80px] items-center justify-start gap-10  text-2xl text-blue-600 '>
+        { (<div className={`w-[50%] sm:hidden fixed  top-0 right-0  h-full bg-white flex flex-col list-none py-[80px] items-center justify-start gap-10  text-2xl text-blue-600  duration-300 ease-in-out ${ toggleNav ? "translate-x-0" : "translate-x-full"}`}>
+
             {/* close button */}
             <FaWindowClose size={"40"} className='self-end mr-10' onClick={handleNavToggle}/>
             

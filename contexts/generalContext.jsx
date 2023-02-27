@@ -7,7 +7,7 @@ export const GeneralContext = createContext()
 
 
 export const GeneralProvider = ({children}) => {
-    const [toggleNav, setToggleNav] = useState(true)
+    const [toggleNav, setToggleNav] = useState(false)
 
     const handleNavToggle = () => {
       setToggleNav((prev) => !prev)

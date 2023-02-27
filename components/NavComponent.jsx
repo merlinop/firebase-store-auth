@@ -27,7 +27,7 @@ const NavComponent = () => {
         </div>
 
       <div className='sm:hidden mr-2 flex gap-4'> 
-      <button className="hover:border-b-2 border-blue-700 font-semibold">Cart</button>
+      <button className="hover:border-b-2 border-blue-700 font-semibold cursor-pointer">Cart</button>
       <GiHamburgerMenu color='#425bff' size={"30"} onClick={handleNavToggle}/>
       </div>
         

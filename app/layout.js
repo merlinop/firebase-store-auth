@@ -1,5 +1,7 @@
 import './globals.css'
 import { GeneralProvider } from '@/contexts/generalContext'
+import NavComponent from '@/components/NavComponent'
+import NavLayer from '@/components/navlayer/NavLayer'
 
 export const metadata = {
   title: 'SHOPCART | HOME',
@@ -9,8 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className='w-full min-h-screen flex flex-col bg-slate-300 relative'>
         <GeneralProvider>
+           {/* Navbar Component Layout */}
+        <NavComponent />
+           <NavLayer />
         {children}
         </GeneralProvider>
         </body>

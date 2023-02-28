@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    // screens: {
+    //   'overflowways' : '643px'
+    // }
   },
   plugins: [],
 }

@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 const BottomLayer = () => {
   return (
-    <section className='hidden md:w-[95%] lg:w-[90%] xl:w-[80%]  mx-auto  h-full sm:flex items-center justify-between gap-4'>
+    <section className='hidden md:w-[95%] lg:w-[90%] xl:w-[80%]  mx-auto  h-full sm:flex items-center justify-between gap-2'>
         <div className='flex items-center gap-3'>
             <ImCart color='green'  size={30}/>
             <h1 className='text-green-900 text-2xl font-bold'>Shopcart</h1>
@@ -51,7 +51,7 @@ const BottomLayer = () => {
             </Link>
         </div>
 
-        <div className='flex gap-2 items-center ml-4'>
+        <div className='hidden md:flex gap-2 items-center ml-4 '>
             <HiShoppingCart size={20} />
             <Link href={"/account"}>
                 <p className='hover:border-b-2 hover: border-green-700'>Cart</p>

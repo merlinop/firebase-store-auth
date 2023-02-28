@@ -12,10 +12,8 @@ const roboto = Roboto({
 
 export default function Home() {
   return (
-    <div className={`${roboto.weight} w-full min-h-screen flex flex-col bg-slate-600 relative`}>
-            {/* Navbar */}
-           <NavComponent />
-           <NavLayer />
+    <div className='w-full'>
+           
            {/* hero */}
         <section>
           <ProductsComponent />

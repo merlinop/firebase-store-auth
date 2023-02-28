@@ -17,7 +17,7 @@ const MobileNavComponent = () => {
             <h1 className='text-green-900 text-xl font-bold'>Shopcart</h1>
         </div>
 
-        <div className='flex flex-1 items-center gap-5 w-full justify-end relative'>
+        <div className='flex flex-1 items-center gap-2 w-full justify-end relative'>
                 <input 
                     type="text"
                     placeholder='Search Product'

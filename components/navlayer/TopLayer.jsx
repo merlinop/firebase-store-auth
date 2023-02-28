@@ -16,7 +16,7 @@ const TopLayer = () => {
       </div>
       {/* right text */}
       <div  className='flex gap-2'>
-        <select className='bg-transparent text-white' >
+        <select className='bg-transparent text-white text-sm' >
           <option value="Eng">Eng</option>
           <option value="FR">FR</option>
           <option value="IT">IT</option>

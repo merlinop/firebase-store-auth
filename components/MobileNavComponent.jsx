@@ -1,10 +1,15 @@
+"use client"
+
 import React from 'react'
 import { ImCart } from 'react-icons/im'
 import { FiSearch } from 'react-icons/fi'
 import {GiHamburgerMenu} from 'react-icons/gi'
+import { useContext } from 'react'
+import { GeneralContext } from '@/contexts/generalContext'
 import Link from 'next/link'
 
 const MobileNavComponent = () => {
+      const {handleNavToggle} = useContext(GeneralContext)
   return (
     <section className='flex sm:hidden px-2 py-4 items-center '>
         <div className='flex items-center gap-3'>
@@ -19,7 +24,7 @@ const MobileNavComponent = () => {
                     className='bg-slate-200 ml-4 px-3 py-1 text-black placeholder:text-sm sm:placeholder:text-xs placeholder:text-black font-normal rounded-xl w-[150px] relative'
                     />
                     <FiSearch  className='absolute top-[0.5rem] right-11 cursor-pointer' size={18}/>    
-                    <GiHamburgerMenu  className='cursor-pointer' size={20}/>
+                    <GiHamburgerMenu  className='cursor-pointer' size={20} onClick={handleNavToggle} />
         </div>
        
         

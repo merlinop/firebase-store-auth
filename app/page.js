@@ -1,15 +1,22 @@
 import NavComponent from '@/components/NavComponent'
+import NavLayer from '@/components/navlayer/NavLayer'
 import ProductsComponent from '@/components/ProductsComponent'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='w-full min-h-screen flex flex-col bg-slate-600 relative'>
-   
-         <NavComponent />
+    <div className={`${roboto.weight} w-full min-h-screen flex flex-col bg-slate-600 relative`}>
+            {/* Navbar */}
+           <NavComponent />
+           <NavLayer />
+           {/* hero */}
         <section>
           <ProductsComponent />
         </section>

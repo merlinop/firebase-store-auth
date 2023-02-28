@@ -6,7 +6,7 @@ import TopLayer from './navlayer/TopLayer'
 
 const NavComponent = () => {
   return (
-    <div className='w-full flex flex-col h-[100px] bg-white'>
+    <div className='w-full flex flex-col h-[90px] bg-white'>
         <TopLayer />
         <BottomLayer />
         <MobileNavComponent />

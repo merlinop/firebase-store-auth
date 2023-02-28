@@ -12,13 +12,13 @@ const MobileNavComponent = () => {
             <h1 className='text-green-900 text-xl font-bold'>Shopcart</h1>
         </div>
 
-        <div className='flex flex-1 items-center gap-5 w-full justify-end'>
+        <div className='flex flex-1 items-center gap-5 w-full justify-end relative'>
                 <input 
                     type="text"
                     placeholder='Search Product'
                     className='bg-slate-200 ml-4 px-3 py-1 text-black placeholder:text-sm sm:placeholder:text-xs placeholder:text-black font-normal rounded-xl w-[150px] relative'
                     />
-                    <FiSearch  className='absolute top-1 right-4 cursor-pointer' size={25}/>    
+                    <FiSearch  className='absolute top-[0.5rem] right-11 cursor-pointer' size={18}/>    
                     <GiHamburgerMenu  className='cursor-pointer' size={20}/>
         </div>
        

@@ -1,4 +1,5 @@
-import ProductsComponent from '@/components/ProductsComponent'
+import HeroComponent from '@/components/HeroComponent'
+import SortComponent from '@/components/SortComponent'
 
 
 
@@ -7,7 +8,10 @@ export default function Home() {
     <div className=" min-h-screen">
            
            {/* hero */}
-          <ProductsComponent />
+          <HeroComponent />
+
+          {/* Sorting  */}
+          <SortComponent />
         
     </div>
   )

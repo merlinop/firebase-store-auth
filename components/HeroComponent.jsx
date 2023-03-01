@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 
-const ProductsComponent = () => {
+const HeroComponent = () => {
   return (
     <div className='w-full md:w-[90%] h-[450px] md:h-[400px] mx-auto bg-[#fefffe] grid md:grid-cols-2 grid-rows-2 md:grid-rows-1 md:px-5 shadow-lg'>
       {/* Left section */}
@@ -27,4 +27,4 @@ const ProductsComponent = () => {
   )
 }
 
-export default ProductsComponent
+export default HeroComponent

@@ -14,7 +14,7 @@ const NavLayer = () => {
 
   return (
     
-        <div className={`md:hidden fixed w-[50%] min-h-screen bg-white top-0 right-0 bottom-0 flex flex-col items-center px-4 py-5 duration-300 ease-in-out ${toggleNav ? "translate-x-0" : "translate-x-full"}`}>
+        <div className={`md:hidden fixed w-[50%] min-h-screen bg-[#2f2f30] top-0 right-0 bottom-0 flex flex-col items-center px-4 py-5 duration-300 ease-in-out z-50 ${toggleNav ? "translate-x-0" : "translate-x-full"}`}>
         <AiFillCloseCircle className='mt-[50px] self-end cursor-pointer' size={40} color="green" onClick={handleNavToggle} />
         </div>
 

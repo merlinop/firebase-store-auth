@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.className}>
-      <body className="w-full min-h-screen flex flex-col bg-slate-300 relative">
+      <body className="w-full min-h-screen flex flex-col bg-[#dfe2f5] relative">
         <GeneralProvider>
            {/* Navbar Component Layout */}
         <NavComponent />

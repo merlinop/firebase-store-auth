@@ -14,8 +14,8 @@ const BottomLayer = () => {
             <h1 className='text-green-900 text-2xl font-bold'>Shopcart</h1>
         </div>
 
-        <div className='flex items-center gap-6 text-black bg-transparent w-full font-semibold '>
-            <select className='cursor-pointer hidden lg:block' >
+        <div className='flex items-center gap-6 text-black bg-[transparent] w-full font-semibold '>
+            <select className='cursor-pointer hidden lg:block bg-[#dfe2f5]' >
                 <option value="Headphones">Categories</option>
                 <option value="Shoes">Shoes</option>
                 <option value="Cars">Cars</option>
@@ -38,7 +38,7 @@ const BottomLayer = () => {
             <input 
                     type="text"
                     placeholder='Search Product'
-                    className='bg-slate-200 ml-4 px-3 py-1 text-black placeholder:text-sm sm:placeholder:text-xs placeholder:text-black font-normal rounded-xl w-[250px] relative'
+                    className='bg-slate-200 ml-4 px-3 py-1 text-black placeholder:text-sm sm:placeholder:text-sm placeholder:text-black font-normal rounded-xl w-[250px] relative'
                     />
                     <FiSearch  className='absolute top-1 right-4 cursor-pointer' size={25}/>
             </div>

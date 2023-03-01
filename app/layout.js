@@ -2,6 +2,13 @@ import './globals.css'
 import { GeneralProvider } from '@/contexts/generalContext'
 import NavComponent from '@/components/NavComponent'
 import NavLayer from '@/components/navlayer/NavLayer'
+import { Poppins } from 'next/font/google'
+
+const poppins = Poppins({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-Poppins',
+})
 
 export const metadata = {
   title: 'SHOPCART | HOME',
@@ -10,8 +17,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className='w-full min-h-screen flex flex-col bg-slate-300 relative'>
+    <html lang="en" className={poppins.className}>
+      <body className="w-full min-h-screen flex flex-col bg-slate-300 relative">
         <GeneralProvider>
            {/* Navbar Component Layout */}
         <NavComponent />

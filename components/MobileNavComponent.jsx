@@ -14,7 +14,7 @@ const MobileNavComponent = () => {
     <section className='flex sm:hidden px-2 py-4 items-center '>
         <div className='flex items-center gap-3'>
             <ImCart color='green'  size={20}/>
-            <h1 className='text-green-900 text-xl font-bold'>Shopcart</h1>
+            <h1 className='text-green-900 text-xl font-bold cursor-pointer'>Shopcart</h1>
         </div>
 
         <div className='flex flex-1 items-center gap-2 w-full justify-end relative'>

@@ -23,7 +23,7 @@ const MobileNavComponent = () => {
                     placeholder='Search Product'
                     className='bg-slate-200 ml-4 px-3 py-1 text-black placeholder:text-sm sm:placeholder:text-xs placeholder:text-black font-normal rounded-xl w-[150px] relative'
                     />
-                    <FiSearch  className='absolute top-[0.5rem] right-11 cursor-pointer' size={18}/>    
+                       
                     <GiHamburgerMenu  className='cursor-pointer' size={20} onClick={handleNavToggle} />
         </div>
        

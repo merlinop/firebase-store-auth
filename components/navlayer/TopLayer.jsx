@@ -17,15 +17,21 @@ const TopLayer = () => {
       {/* right text */}
       <div  className='flex gap-2'>
         <select className='bg-transparent text-white text-sm' >
-          <option value="Eng">Eng</option>
-          <option value="FR">FR</option>
-          <option value="IT">IT</option>
+          <option value="Eng"  className='bg-[#dfe2f5] text-black
+          '>Eng</option>
+          <option value="FR" className='bg-[#dfe2f5] text-black
+          '>FR</option>
+          <option value="IT" className='bg-[#dfe2f5] text-black
+          '>IT</option>
         </select>
 
         <select className='hidden sm:block bg-transparent text-white'>
-          <option value="Location">Location</option>
-          <option value="USA">USA</option>
-          <option value="ITALY">ITALY</option>
+          <option value="Location" className='bg-[#dfe2f5] text-black
+          '>Location</option>
+          <option value="USA" className='bg-[#dfe2f5] text-black
+          '>USA</option>
+          <option value="ITALY" className='bg-[#dfe2f5] text-black
+          '>ITALY</option>
         </select>
       </div>
       </section>

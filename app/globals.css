@@ -5,6 +5,6 @@
 
 @layer components {
     .spacingways {
-        @apply w-full px-[1rem] md:px-[4rem] lg:px-0 lg:w-[90%]
+        @apply w-full px-[8px] md:px-[4rem] lg:px-0 lg:w-[90%]
     }
 }

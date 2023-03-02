@@ -13,7 +13,7 @@ const ProductsComponent = () => {
                     width={200}
                     height={100}
                     alt="items"
-                    className='w-full h-[250px]'
+                    className='object-cover lg:object-fill w-full h-[250px]'
                 />
             </div>
 

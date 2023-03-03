@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 @layer components {
     .spacingways {
         @apply w-full px-[8px] md:px-[4rem] lg:px-0 lg:w-[90%]

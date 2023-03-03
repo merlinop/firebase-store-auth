@@ -1,25 +1,30 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 import ProductData from "../data/productData"
+import { motion } from "framer-motion"
 
 const ProductsComponent = () => {
-  return ( <div  className='spacingways mx-auto mt-[20px] grid grid-cols-2 grid-rows-4 md:grid-rows-2 md:grid-cols-3 lg:grid-rows-2 lg:grid-cols-4 gap-2 md:gap-4 mb-4'>
+  return ( <div  className='spacingways mx-auto mt-[20px] grid grid-cols-2 grid-rows-4 md:grid-rows-2 md:grid-cols-3 lg:grid-rows-2 lg:grid-cols-4 gap-2 md:gap-4 lg:gap-6 mb-4'>
    {ProductData && ProductData.map((list, idx) => {
     return ( 
-        <div key={idx} className='border-transparent shadow-sm shadow-black h-[400px] flex flex-col items-start'>
-            <div className='w-full'>
-                <Image 
+        <div key={idx} className='border-transparent shadow-sm shadow-black h-[400px] flex flex-col items-start rounded-lg'>
+            <div className="w-full">
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} >
+            <Image 
                     src={list.img}
                     width={200}
                     height={100}
                     alt="items"
-                    className='object-cover lg:object-fill w-full h-[250px]'
+                    className='object-cover lg:object-fill w-full h-[250px] hover:rounded-3xl rounded-lg'
                 />
+            </motion.div>
+                
             </div>
 
-            <div className='flex w-full justify-between mt-[10px] px-2'>
-                <p className='font-bold text-sm '>{list.title}</p>
-                <p className='font-bold text-sm '>{list.price}</p>
+            <div className='flex w-full justify-between mt-[10px] px-2 '>
+                <p className='font-bold text-sm  '>{list.title}</p>
+                <p className='font-bold text-sm  '>{list.price}</p>
             </div>
 
             

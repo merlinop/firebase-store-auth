@@ -20,6 +20,7 @@ const HeroComponent = () => {
           // fill={true}
           alt="hero image"
          className="object-cover object-right-top flex-1"
+         priority
          
          />
       </div>

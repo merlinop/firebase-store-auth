@@ -6,56 +6,64 @@ const ProductData = [
         title: "Wireless Earbuds, Ipx8",
         about: "Organic cotton, fairtrade certified",
         price: "$889",
-        rating: "(121)"
+        rating: "(121)",
+        id:1
     },
     {
         img: "/images/headphones/3.jpg",
-        title: "Wireless Earbuds, Ipx8",
+        title: "Samsung Galaxy s20",
         about: "Organic cotton, fairtrade certified",
         price: "$889",
-        rating: "(121)"
+        rating: "(121)",
+        id:2
     },
     {
         img: "/images/headphones/3.jpg",
-        title: "Wireless Earbuds, Ipx8",
+        title: "Corolla Sport movement",
         about: "Organic cotton, fairtrade certified",
         price: "$889",
-        rating: "(121)"
+        rating: "(121)",
+        id:3
     },
     {
         img: "/images/headphones/4.jpg",
-        title: "Wireless Earbuds, Ipx8",
+        title: "Fireman Googles",
         about: "Organic cotton, fairtrade certified",
         price: "$889",
-        rating: "(121)"
+        rating: "(121)",
+        id:4
     },
     {
         img: "/images/headphones/5.jpg",
-        title: "Wireless Earbuds, Ipx8",
+        title: "Cakes and Progress",
         about: "Organic cotton, fairtrade certified",
         price: "$889",
-        rating: "(121)"
+        rating: "(121)",
+        id:5
     },
     {
         img: "/images/headphones/6.jpg",
-        title: "Wireless Earbuds, Ipx8",
+        title: "Toothpaste in working",
         about: "Organic cotton, fairtrade certified",
         price: "$889",
-        rating: "(121)"
+        rating: "(121)",
+        id:6
     },
     {
         img: "/images/headphones/7.jpg",
-        title: "Wireless Earbuds, Ipx8",
+        title: "Creams and simpsons",
         about: "Organic cotton, fairtrade certified",
         price: "$889",
-        rating: "(121)"
+        rating: "(121)",
+        id:7
     },
     {
         img: "/images/headphones/8.jpg",
-        title: "Wireless Earbuds, Ipx8",
+        title: "Clutch and Individual",
         about: "Organic cotton, fairtrade certified",
         price: "$889",
-        rating: "(121)"
+        rating: "(121)",
+        id:8
     },
 
 

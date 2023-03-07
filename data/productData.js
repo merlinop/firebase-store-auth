@@ -7,7 +7,8 @@ const ProductData = [
         about: "Organic cotton, fairtrade certified",
         price: 950,
         rating: "(121)",
-        id:1
+        id:1,
+        description: "Organic cotton, fairtrade certified, became in the event and unknown"
     },
     {
         img: "/images/headphones/3.jpg",
@@ -15,7 +16,8 @@ const ProductData = [
         about: "Organic cotton, fairtrade certified",
         price: 950,
         rating: "(121)",
-        id:2
+        id:2,
+        description: "This is a random section to became the world and the nation and the filling"
     },
     {
         img: "/images/headphones/3.jpg",
@@ -23,7 +25,8 @@ const ProductData = [
         about: "Organic cotton, fairtrade certified",
         price: 950,
         rating: "(121)",
-        id:3
+        id:3,
+        description: "The conqueror the champion the tiger the kinikan kinikan is here"
     },
     {
         img: "/images/headphones/4.jpg",
@@ -31,7 +34,8 @@ const ProductData = [
         about: "Organic cotton, fairtrade certified",
         price: 950,
         rating: "(121)",
-        id:4
+        id:4,
+        description: "Total and the activation within forum and the quantity where the nation can collide with the earth"
     },
     {
         img: "/images/headphones/5.jpg",
@@ -39,7 +43,8 @@ const ProductData = [
         about: "Organic cotton, fairtrade certified",
         price: 950,
         rating: "(121)",
-        id:5
+        id:5,
+        description: "Organic cotton, fairtrade certified, became in the event and unknown"
     },
     {
         img: "/images/headphones/6.jpg",
@@ -47,7 +52,8 @@ const ProductData = [
         about: "Organic cotton, fairtrade certified",
         price: 950,
         rating: "(121)",
-        id:6
+        id:6,
+        description: "Organic cotton, fairtrade certified, became in the event and unknown"
     },
     {
         img: "/images/headphones/7.jpg",
@@ -55,7 +61,8 @@ const ProductData = [
         about: "Organic cotton, fairtrade certified",
         price: 950,
         rating: "(121)",
-        id:7
+        id:7,
+        description: "Organic cotton, fairtrade certified, became in the event and unknown"
     },
     {
         img: "/images/headphones/8.jpg",
@@ -63,7 +70,8 @@ const ProductData = [
         about: "Organic cotton, fairtrade certified",
         price: 950,
         rating: "(121)",
-        id:8
+        id:8,
+        description: "Organic cotton, fairtrade certified, became in the event and unknown"
     },
 
 

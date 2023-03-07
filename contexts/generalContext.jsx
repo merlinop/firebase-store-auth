@@ -14,6 +14,7 @@ export const GeneralProvider = ({children}) => {
     const [toggleNav, setToggleNav] = useState(false)
     const [toggleCart, setToggleCart] = useState(false)
     const [isEmpty, setIsEmpty] = useState(true)
+    const [reviewClicker, setReviewClicker] = useState(false)
 
   // handle Add to cart
     const handleNewCart = (newproduct) => {
@@ -33,12 +34,16 @@ export const GeneralProvider = ({children}) => {
     const handleMinusSec = (newproduct) => {
       setCartItems(handleMinus(cartItems, newproduct))
     }
+
+    const handleReview = () => {
+      setReviewClicker((prev) => !prev)
+    }
 // Scroll Refs
     const cartRef = useRef()
     const mobileCartRef = useRef()
 
     // Values
-    const value = {toggleNav, setToggleNav, handleNavToggle, handleNewCart,cartItems, toggleCart, setToggleCart, isEmpty, setIsEmpty, cartRef, mobileCartRef, handleAddSec, handleMinusSec}
+    const value = {toggleNav, setToggleNav, handleNavToggle, handleNewCart,cartItems, toggleCart, setToggleCart, isEmpty, setIsEmpty, cartRef, mobileCartRef, handleAddSec, handleMinusSec, handleReview, reviewClicker}
 
     return ( <GeneralContext.Provider value={value}>
               {children}

@@ -29,27 +29,27 @@ const ProductsComponent = () => {
         <div  className='border-transparent shadow-sm shadow-black h-[400px] flex flex-col items-start rounded-lg overflow-hidden'>
           
             <div className="w-full">
-            <Image 
-                    src={list.img}
-                    width={200}
-                    height={100}
-                    alt="items"
-                    className='object-cover w-full h-[250px]'
-                />
-          
-                
+           <Link href={`/items/${list.id}`}>
+                <Image 
+                            src={list.img}
+                            width={200}
+                            height={100}
+                            alt="items"
+                            className='object-cover w-full h-[250px]'
+                        />
+           </Link>
             </div>
 
             <div className='flex w-full justify-between mt-[10px] px-2 '>
                     <Link href={`/items/${list.id}`}>
                         <p className='font-bold text-sm cursor-pointer' >{list.title}</p>
-                        </Link>
+                    </Link>
                 <p className='font-bold text-sm  '>{list.price}</p>
             </div>
 
             
                 <p className='font-semibold text-gray-500 text-xs mt-1 px-2'>{list.about}</p>
-                <p className='font-semibold text-gray-500 text-xs mt-1 px-2 pb-1'>ratings- {list.rating}</p>
+                <p className='font-semibold text-green-700 text-xs mt-1 px-2 pb-1'>ratings- {list.rating}</p>
            
 
 

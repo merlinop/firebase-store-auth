@@ -17,7 +17,9 @@ const BottomLayer = () => {
     <section className='hidden md:w-[95%] lg:w-[90%] xl:w-[80%]  mx-auto  h-full sm:flex items-center justify-between gap-2'>
         <div className='flex items-center gap-3'>
             <ImCart color='green'  size={30}/>
-            <h1 className='text-green-900 text-2xl font-bold'>Shopcart</h1>
+            <Link href={"/"}>
+                 <h1 className='text-green-900 text-2xl font-bold'>Shopcart</h1>
+            </Link>
         </div>
 
         <div className='flex items-center gap-6 text-black bg-[transparent] w-full font-semibold '>

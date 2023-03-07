@@ -6,7 +6,7 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 import {HiShoppingCart} from 'react-icons/hi'
 import { useContext } from 'react'
 import { GeneralContext } from '@/contexts/generalContext'
-
+import Link from 'next/link'
 
 const MobileNavComponent = () => {
       const {handleNavToggle,cartItems, mobileCartRef, setToggleCart} = useContext(GeneralContext)
@@ -19,7 +19,9 @@ const MobileNavComponent = () => {
     <section className='flex sm:hidden px-2 py-4 items-center '>
         <div className='flex items-center gap-3'>
             <ImCart color='green'  size={20}/>
-            <h1 className='text-green-900 text-xl font-bold cursor-pointer'>Shopcart</h1>
+           <Link href={"/"}>
+           <h1 className='text-green-900 text-xl font-bold cursor-pointer'>Shopcart</h1>
+           </Link>
         </div>
 
         <div className='flex flex-1 items-center gap-2 w-full justify-end relative'>
